@@ -1,0 +1,17 @@
+{
+  "start_url": "index.html",
+  "name": "Trnsltr",
+  "short_name": "Trnsltr",
+  "icons": [ {
+    "src": "img/safari-pinned-tab.png",
+    "sizes": "160x160",
+    "type": "image/png"
+  }, {
+    "src": "img/safari-pinned-tab-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  } ],
+  "background_color": "rebeccapurple",
+  "theme_color": "rebeccapurple",
+  "display": "standalone"
+}
