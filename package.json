@@ -4,7 +4,9 @@
   "description": "A translator PWA translating Italian to an invented language",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server src -c-1",
+    "sw": "sw-precache --root=src",
+    "deploy": "firebase deploy"
   },
   "author": "",
   "license": "MIT",
