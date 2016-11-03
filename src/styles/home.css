@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: #F6F6F6;
+  font-size: 18px;
+}
+header {
+  overflow: auto;
+  padding: 50px 25px;
+  background-color: rebeccapurple;
+  color: white;
+}
+header h1 {
+  margin-top: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+header p {
+  opacity: 0.75;
+}
+.text-input, .output-p {
+  display: block;
+  padding: 50px 25px;
+  font-size: 1.5rem;
+}
+.text-input {
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.output-p {
+  display: none;
+  margin: 15px;
+  background-color: rebeccapurple;
+  color: white;
+}
+.output-p.visible {
+  display: block;
+}
+.labels-container {
+  display: flex;
+  width: 100%;
+}
+.labels-container .label {
+  flex: 1;
+  padding: 25px;
+  text-align: center;
+}
+.toggle-btn {
+  padding: 25px;
+  width: 45px;
+  border: none;
+  outline: none;
+  background: none;
+  background-image: url('/img/swap.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+.toggle-btn.reverse {
+  transform: rotate(180deg);
+}

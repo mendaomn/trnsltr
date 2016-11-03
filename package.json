@@ -1,0 +1,14 @@
+{
+  "name": "trnsltr",
+  "version": "1.0.0",
+  "description": "A translator PWA translating Italian to an invented language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sw-precache": "^4.2.1"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trnsltr</title>
+    <link rel="stylesheet" href="/styles/home.css" charset="utf-8">
+  </head>
+  <body>
+
+    <header>
+      <h1>Trnsltr</h1>
+
+      <p>
+        Traduci dall'italiano a un linguaggio inventato, e viceversa.
+      </p>
+    </header>
+
+    <div class="labels-container">
+      <div class="js-label-from label">Italiano</div>
+      <button class="js-toggle-btn toggle-btn" type="button"></button>
+      <div class="js-label-to label">Spraunf</div>
+    </div>
+
+    <form class="js-form">
+      <input class="js-text-input text-input" type="text" name="text" placeholder="Inserisci la frase da tradurre">
+    </form>
+
+    <p class="js-output-p output-p">
+
+    </p>
+    <script async src="scripts/app.js"></script>
+    <script>
+      if ('serviceWorker' in navigator){
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
+
+  </body>
+</html>
